@@ -117,6 +117,109 @@ var DEPTH=3;
 ```
 *This has been set to 3 inorder not to bork down your computer - to run the full depth adjust to 5 -this will result in about 30mins. of runtime - see file TimerResults*
 
+# Timing results
+
+The follow is taken from the console output of the program, it is included in this [file](https://github.com/cph-js284/Assignment13Database/blob/master/TimerResults.txt)
+
+```
+Populating list with random Ids:
+The following Ids, will beused for both the Neo4j and MySql queries
+
+------------------------------------------------------
+[459476] [118681] [160192] [350874] [366743] 
+[473610] [97471] [36477] [82983] [408860] 
+[128495] [362277] [275972] [406809] [221434] 
+[427763] [429125] [197669] [202024] [384795] 
+
+
+--------------NEO4J-DEPTH 1---------------------------------------
+RESULT :
+20 executions of depth 1
+Total excutiontime: 611 ms.
+Avg executiontime: 30.55 ms.
+Median executiontime: 8 ms.
+
+
+--------------NEO4J-DEPTH 2---------------------------------------
+RESULT :
+20 executions of depth 2
+Total excutiontime: 1523 ms.
+Avg executiontime: 76.15 ms.
+Median executiontime: 42 ms.
+
+
+--------------NEO4J-DEPTH 3---------------------------------------
+RESULT :
+20 executions of depth 3
+Total excutiontime: 30418 ms.
+Avg executiontime: 1520.9 ms.
+Median executiontime: 750 ms.
+
+
+--------------NEO4J-DEPTH 4---------------------------------------
+RESULT :
+20 executions of depth 4
+Total excutiontime: 72947 ms.
+Avg executiontime: 3647.35 ms.
+Median executiontime: 2310 ms.
+
+
+--------------NEO4J-DEPTH 5---------------------------------------
+RESULT :
+20 executions of depth 5
+Total excutiontime: 1608423 ms.
+Avg executiontime: 80421.15 ms.
+Median executiontime: 61427 ms.
+
+
+----------------CONTAINER SWITCH--------------------------------
+
+
+--------------MYSQL-DEPTH 1---------------------------------------
+RESULT :
+20 executions of depth 1
+Total excutiontime: 17 ms.
+Avg executiontime: 0.85 ms.
+Median executiontime: 1 ms.
+
+
+--------------MYSQL-DEPTH 2---------------------------------------
+RESULT :
+20 executions of depth 2
+Total excutiontime: 46 ms.
+Avg executiontime: 2.3 ms.
+Median executiontime: 2 ms.
+
+
+--------------MYSQL-DEPTH 3---------------------------------------
+RESULT :
+20 executions of depth 3
+Total excutiontime: 342 ms.
+Avg executiontime: 17.1 ms.
+Median executiontime: 6 ms.
+
+
+--------------MYSQL-DEPTH 4---------------------------------------
+RESULT :
+20 executions of depth 4
+Total excutiontime: 8873 ms.
+Avg executiontime: 443.65 ms.
+Median executiontime: 73 ms.
+
+
+--------------MYSQL-DEPTH 5---------------------------------------
+RESULT :
+20 executions of depth 5
+Total excutiontime: 186368 ms.
+Avg executiontime: 9318.4 ms.
+Median executiontime: 4870 ms.
+
+
+
+Done...press any key to terminate
+
+```
+
 # Conclusion and observations
 Due to the fact that the list of the 20 random Id's get recalculated each time the program is executed its difficult to compare results.<br>
 <br>
