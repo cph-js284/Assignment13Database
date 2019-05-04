@@ -221,8 +221,8 @@ Done...press any key to terminate
 ```
 
 # Conclusion and observations
-Due to the fact that the list of the 20 random Id's get recalculated each time the program is executed its difficult to compare results.<br>
+Due to the fact that the list of the 20 random Id's get recalculated each time the program is executed, your results may differ from the above.<br>
 <br>
-There seems to be a spin-lag when the program is connecting to the databases in the DEPTH 1 executions (it might be something entirely different)
+There seems to be a spinup-lag when the program is connecting to the databases in the DEPTH 1 executions (it might be something entirely different)
 <br><br>
 The Mysql connections are set up to be *async* the Neo4j connection is not.
