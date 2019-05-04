@@ -105,8 +105,8 @@ ADD INDEX `inx_trg` (`target_node_id` ASC);
 
 # Executing the program
 
-1) Make sure you have atleast the dotnet-runtime installed
-2) Execute the program 
+1) Make sure you have atleast the dotnetCore installed
+2) Build and execute the program 
 ```
 dotnet run
 ```
