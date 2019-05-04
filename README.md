@@ -113,13 +113,13 @@ dotnet run
 
 *The main-method in the program.cs file (line 14) contains a variable*
 ```
-var DEPTH=5;
+var DEPTH=3;
 ```
-*this has been set to 3 inorder not to bork down your computer - to run the full depth adjust to 5(this will result in about 30mins. of runtime - see file TimerResults) *
+*This has been set to 3 inorder not to bork down your computer - to run the full depth adjust to 5 -this will result in about 30mins. of runtime - see file TimerResults*
 
 # Conclusion and observations
 Due to the fact that the list of the 20 random Id's get recalculated each time the program is executed its difficult to compare results.<br>
 <br>
 There seems to be a spin-lag when the program is connecting to the databases in the DEPTH 1 executions (it might be something entirely different)
-<br>
+<br><br>
 The Mysql connections are set up to be *async* the Neo4j connection is not.
